@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry install"
+version = "0.1.0"
+description = "LLM Quantization and fine tune"
+authors = ["big-scale <scaledata06@gmail.com>"]
+license = "1.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.2"
+sentencepiece = "^0.2.0"
+jsonargparse = "^4.28.0"
+bitsandbytes = "^0.43.1"
+datasets = "^2.18.0"
+zstandard = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
